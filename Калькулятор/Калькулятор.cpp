@@ -8,7 +8,6 @@ using namespace std;
 int main()
 {
    int a = 12 * (25 + 689) / (60 - 9) - 12 * 3;
-
    cout << a;
 }
 
