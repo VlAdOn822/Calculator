@@ -7,12 +7,8 @@ using namespace std;
 
 int main()
 {
-    /*int a = 12 * (25 + 689) / (60 - 9) - 12 * 3;*/
-    cout << "Enter mathematical expression";
-    int exp;
-    cin >> exp;
-    cout << "Answer is "+ exp;
-   /* cout << a;*/
+   int a = 12 * (25 + 689) / (60 - 9) - 12 * 3;
+   cout << a;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
