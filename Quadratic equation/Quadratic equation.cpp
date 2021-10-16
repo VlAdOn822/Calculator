@@ -24,7 +24,7 @@ int main()
         x = -(b / 2 * a);
         cout << "x = " << x;
     }
-    else if (d < 0)
+    else
     {
         cout << "There are no solutions";
     }
