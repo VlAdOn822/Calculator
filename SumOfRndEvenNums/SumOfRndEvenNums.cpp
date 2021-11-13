@@ -7,20 +7,20 @@ using namespace std;
 
 int main()
 {
-	int n, a, b;
+	int n, min, max;
 	int sum = 0;
 
 	cout << "Enter num\n";
 	cin >> n;
 	cout << "Enter borders of rnd nums\n";
-	cin >> a >> b;
+	cin >> min >> max;
 
 	int count = 0; 
 	while (count <= n)
 	{
 		int rnd = rand();
-		rnd %= b;
-		if (rnd > a && rnd % 2 == 0)
+		rnd %= (max - min + 1) + min;
+		if (rnd > min && rnd % 2 == 0)
 		{
 			sum += rnd;
 			count++;
