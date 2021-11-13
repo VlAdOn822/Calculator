@@ -7,16 +7,15 @@ using namespace std;
 int main()
 {
     int n;
-    int count = 0;
+    int sum = 0;
     cout << "Enter num\n";
     cin >> n;
     do
     {
-        count += n % 10;
-        n -= n % 10;
+        sum += n % 10;
         n /= 10;
     } while (n != 0);
-    cout << count;
+    cout << sum;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
