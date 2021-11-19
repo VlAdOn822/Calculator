@@ -6,12 +6,12 @@ using namespace std;
 
 int main()
 {
-    long double count = 1;
-	for (int i = 5; i <= 95; i+=5)
+	long double count = 1;
+	for (int i = 5; i <= 95; i += 5)
 	{
 		count *= sqrt(i);
 	}
-    cout << count;
+	cout << count;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
