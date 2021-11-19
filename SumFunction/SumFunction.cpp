@@ -1,17 +1,16 @@
-// Circle.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// SumFunction.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include <windows.h>
+#include "SumFunction.h"
 using namespace std;
 
 int main()
 {
-		HWND handle = FindWindowA("ConsoleWindowClass", NULL);
-		HDC dc = GetDC(handle);
-
-		CC_CIRCLES;
-		cin.get();
+	int a, b;
+	cout << "Enter two nums\n";
+	cin >> a >> b;
+	cout << Sum(a, b) << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
