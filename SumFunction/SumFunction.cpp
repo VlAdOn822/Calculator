@@ -13,6 +13,11 @@ int main()
 	cout << Sum(a, b) << endl;
 }
 
+int Sum(int a, int b)
+{
+	return a + b;
+}
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
