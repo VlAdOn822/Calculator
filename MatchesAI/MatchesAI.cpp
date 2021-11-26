@@ -46,7 +46,7 @@ void Game(int& currentPlayer, int& matchcount)
 
 void AIMove(int& matchcount, int& move)
 {
-	if (matchcount == 7  || matchcount == 3 || matchcount == 11 || matchcount == 19 || matchcount == 14)
+	if (matchcount == 7 || matchcount == 3 || matchcount == 11 || matchcount == 19 || matchcount == 14)
 	{
 		move = 3;
 	}
@@ -61,8 +61,7 @@ void AIMove(int& matchcount, int& move)
 	else
 	{
 		move = rand();
-		move %= 3;
-		move += 1;
+	    (move %= 3)++;
 	}
 }
 
