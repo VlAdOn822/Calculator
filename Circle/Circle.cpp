@@ -2,26 +2,12 @@
 //
 
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 int main()
 {
-	for (int x = -10; x <= 10; x++)
-	{
-		for (int y = -10; y <= 10; y++)
-		{
-			if (pow(x, 2) + pow(y, 2) <= pow(12, 2))
-			{
-				cout << "*";
-			}
-			else
-			{
-				cout << " ";
-			}
-			cout << " ";
-		}	
-		cout << endl;
-	}
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
