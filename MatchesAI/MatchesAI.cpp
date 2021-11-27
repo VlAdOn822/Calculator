@@ -60,8 +60,7 @@ void AIMove(int& matchcount, int& move)
 	}
 	else
 	{
-		move = rand();
-	    (move %= 3)++;
+		move = rand() % 3 + 1;
 	}
 }
 
