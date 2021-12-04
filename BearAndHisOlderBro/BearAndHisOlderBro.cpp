@@ -9,6 +9,7 @@ int main()
 	int a, b;
 	int count = 0;
 	cin >> a >> b;
+
 	while (a <= b)
 	{
 		a *= 3;

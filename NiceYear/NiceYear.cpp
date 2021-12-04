@@ -8,6 +8,7 @@ int main()
 {
     int year, a, b, c, d;
     cin >> year;
+
     do
     {
         year++;
