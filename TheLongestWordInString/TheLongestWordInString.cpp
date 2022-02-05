@@ -16,8 +16,7 @@ int main()
 		string  currentWord;
 		for (int i = 0; i < s.length(); i++)
 		{
-		    if ((static_cast<int>(s[i]) >= 65 && static_cast<int>(s[i]) <= 90) || (static_cast<int>(s[i]) >= 97 && static_cast<int>(s[i]) <= 122) ||
-				(static_cast<int>(s[i]) >= 128 && static_cast<int>(s[i]) <= 175) || (static_cast<int>(s[i]) >= 224 && static_cast<int>(s[i]) <= 243))
+		    if (s[i] >= 'a' && s[i] <= 'z')
 			{
 				count++;
 				currentWord += s[i];
@@ -27,7 +26,6 @@ int main()
 					lWord = currentWord;
 				}
 			}
-
 			else
 			{
 				currentWord = "";

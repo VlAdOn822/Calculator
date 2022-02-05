@@ -17,13 +17,13 @@ int main()
 		string  currentWord;
 		for (int i = 1; i < s.length(); i++)
 		{
-			if (currentWord[i - 1] == currentWord[i])
+		    if (s[i - 1] == s[i])
 			{
 				break;
 			}
 			else if ((static_cast<int>(s[i]) >= 65 && static_cast<int>(s[i]) <= 90) || (static_cast<int>(s[i]) >= 97 && static_cast<int>(s[i]) <= 122))
 			{
-				count++;
++				count++;
 				currentWord += s[i];
 				if (count > maxCount)
 				{
@@ -43,7 +43,7 @@ int main()
 		}
 	}
 
-	cout << maxCount;
+	cout << maxCount++;
 }
 
 
